@@ -26,6 +26,9 @@ let p = new Promise//this is creating a new promise//
         console.log("Hello, " + name + "!");
     }
 //The parameters are name and it is a string
+//Calling the Function: When you call the function, you provide an actual value for the parameter:
+greet("Sharon"); // Here, "Sharon" is the argument passed to the parameter `name`.
+//The function will then use the value of the argument to perform the operation.
     let isTrue = true;
     if (isTrue) {
       resolve('Promise resolved');
@@ -33,3 +36,7 @@ let p = new Promise//this is creating a new promise//
       reject('Promise rejected');
     }
   });
+
+
+  //SUMMARY
+  //1. I have understood parameters.
