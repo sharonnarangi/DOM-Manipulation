@@ -32,6 +32,7 @@ function displayData(data) {
        .catch((error) => console.log(error));
   
     /*    try to create a div that will contain the pokemon 
+    
        //container 
        create an image tag with empty src atribute 
        fecth information from the  pokemon api using the fetch method and the .then 
